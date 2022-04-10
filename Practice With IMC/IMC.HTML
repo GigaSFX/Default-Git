@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <h1>TESTES INTRODUÇÃO LOGICA DE PROGRAMAÇÃO USANDO HTML E JAVASCRIPT</h1>   
+    </head>
+    <body>
+        <script>
+
+        function pulaLinha() {
+
+             document.write("<br>");
+            document.write("<br>");
+        }
+
+        function mostra(frase) {
+
+             document.write(frase);
+             pulaLinha();
+        }
+
+         function calculaImc(altura, peso) {
+          return peso / (altura * altura);
+        }
+
+        var alturaInformada = prompt("Informe Altura: ");
+        var pesoInformado = prompt("Informa Peso: ");
+
+        var IMC = calculaImc(alturaInformada, pesoInformado)
+
+        if (IMC <= 18.5) {
+            alert("Subnutrido!"); //mostra numa janela
+        }
+        else {
+            if (IMC >= 35 ) {
+                alert("Obeso!");
+            }
+            else {
+                alert("De acordo!")
+            }
+        }
+        mostra('IMC = ' + Math.round(IMC)); //usa função definida acima para escrever a frase na tela
+
+        </script>
+
+    </body>
+</html>
