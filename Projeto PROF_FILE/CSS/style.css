@@ -1,5 +1,4 @@
 h1 {
-    position: absolute;
 
     font-family: 'Inter';
     font-size: 42px;
@@ -11,11 +10,8 @@ h1 {
 
 h2 {
 
-    position: absolute;
-    width: 387px;
+    width: 350px;
     height: 92px;
-    left: 20px;
-    top: 29px;
 
     font-family: 'Inter';
     font-style: normal;
