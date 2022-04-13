@@ -1,0 +1,49 @@
+<meta charset="UTF-8">
+
+<input/>
+<button onclick="verifica()">Compare com o meu segredo</button>
+
+<script>
+
+    function startNewGame(){
+        count = 0;
+        repeat = 0;
+        while (count <=3){	    
+	        var random = Math.floor(Math.random() * 10) + 1;
+	        if (!segredos.includes(random)) {
+	    	         
+	         segredos.push(random); //grava valor na variavel array segredos igual ao valor de randomico.
+	        count++;
+	        }
+    
+        }
+
+    console.log(segredos);//informa no console os valores de segredo
+    }
+
+    function verifica() {
+        
+    	if (segredos.includes(parseInt(vinput.value))) { //procura no array o valor de vinput;
+
+    	    alert("Você ACERTOU!");
+            location.reload();
+        } else {
+	
+    	    alert("Você ERROU!!!!!!!!");
+	        repeat++;
+	        if (repeat === 3) {
+	            alert ("Numero de Tentativas Expirou!");           
+                location.reload();
+            
+	        }
+            
+        }
+       
+	}
+    var segredos = [];
+    var repeat = 0;
+    var count = 0;
+    var vinput = document.querySelector("input");// Insere o valor da tag HTML na variavel vinput;
+    vinput.focus();	
+    startNewGame();
+</script>
