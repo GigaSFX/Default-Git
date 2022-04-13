@@ -23,3 +23,20 @@ h2 {
     color: #000000;
 }
 
+.textOnTheLetf {
+                
+    width: auto;
+    text-align: left;
+}   
+
+#loginFrame {
+    position:fixed;
+    width: 396px;
+    height: 500px;
+    
+    visibility:hidden;
+
+    border: 1px solid #000000;
+    box-sizing: border-box;
+
+}

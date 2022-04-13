@@ -4,29 +4,11 @@
         <meta charset="UTF-8">
         <title>Home Page - Sign  In</title>
         <link rel="stylesheet" type="text/css" href="CSS/style.css" />
-        <style>
-            iframe {
-                position:fixed;
-                width: 396px;
-                height: 300px;
-                
-                visibility:hidden;
 
-                border: 1px solid #000000;
-                box-sizing: border-box;
-
-            }
-
-            .textOnTheLetf {
-                
-                width: auto;
-                text-align: left;
-            }   
-        </style> 
         <script>
             function showLoginWindow () {
-                const dStyle = document.querySelector('style');
-                dStyle.innerHTML = 'iframe { visibility:visible;}';
+                const dStyle = document.querySelector('#loginFrame');
+                dStyle.style.visibility = "visible";
 
             }
         </script>
@@ -46,9 +28,9 @@
         <div style="float: right; top:300px;">
             <img src="img\3D-avatars-2.jpg">
         </div>
-        <div style="border-top-left-radius: auto;">
-            <iframe src="signIn.html" title="Login"></iframe>  
-        </div>
+       
+        <iframe id="loginFrame" src="signIn.html" title="Login"></iframe>  
+  
 
         
          
