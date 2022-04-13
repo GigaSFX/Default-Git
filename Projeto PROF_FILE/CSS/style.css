@@ -29,14 +29,57 @@ h2 {
     text-align: left;
 }   
 
-#loginFrame {
-    position:fixed;
-    width: 396px;
-    height: 500px;
+.popUpWindow {
+    display: -webkit-flex;
+    align-items:center;
+    align-self: center;
+    left:30%;
+    top:30%;       
+    justify-content: center;
+    position: absolute;
     
-    visibility:hidden;
+}
 
+#loginFrame {
+
+    width: 396px;
+    height: 300px;
     border: 1px solid #000000;
     box-sizing: border-box;
+    background-color: #FFFFFF;
 
+}
+
+#login {
+    text-align: left;
+    font-weight: bold;
+    font-size: 26px;
+
+}
+#password {
+    text-align: left;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+#userLogin {
+    width: 377px;
+    height: 30px;
+
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#userPassword {
+    width: 377px;
+    height: 30px;
+
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    text-align: center;
 }
