@@ -1,5 +1,6 @@
 const login = 'admin';
 const password = 'admin';
+var count = 0;
 
 function showLoginWindow () { 
     if ( document.querySelector(".popUpWindow").style.visibility == 'hidden'){
@@ -10,12 +11,10 @@ function showLoginWindow () {
 }
 
 function checkPassword () {
-    while (login === userLogin) {
-        if (password === userPassword) {
-            console.log('Login e senha correto!')
-        } else {
-                console.log('Login e senha errado!')
-            }
-        
+    if (login !== document.querySelector('#userLogin').value || password !== document.querySelector('#userPassword').value && count < 3) {
+        alert('Login or Password Worg! Please try again or Try create a new Account.');
+        count++;
+    } else {    
+    window.location.replace("url");
     }
 }
