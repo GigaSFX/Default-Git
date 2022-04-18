@@ -18,7 +18,8 @@ function checkPassword () {
             alert('Wait 30 min, util try another Login! Or Click in "Forget your Password?" to change your Password.');
             windows.location.replace("index.html")
         }
-    } else {    
-    window.location.replace("url");
+    } else {
+
+        location.reload();
     }
 }

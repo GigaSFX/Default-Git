@@ -2,6 +2,16 @@ body {
     background-color:azure;
     
 }
+header {
+    margin:7px;
+    display: inline;
+}
+.imgHeader {
+    height: 150px; 
+    width: 150px; 
+    display: inline;
+}
+
 .headerButton {
     background: #3a6aee;
     color: AZURE;
@@ -10,10 +20,11 @@ body {
     height: 40px;
     width: 95px;
     font: bold 15px arial, sans-serif;
+    display: inline;
 }
 
 .headerButton:hover {
-    background: #0066FF;
+    background: #0066ffaf;
     color: AZURE;
     border-style: outset;
     border-color: #0066A2;
@@ -59,7 +70,7 @@ h2 {
     display:inline-block;
     width: 63%;
 }   
-.imageOnTheRight {
+.imgOnTheRight {
     display: inline;
 }
 .popUpWindow {

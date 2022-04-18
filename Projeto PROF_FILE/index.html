@@ -3,16 +3,20 @@
     <head>
         <meta charset="UTF-8">
         <title>Home Page - Sign  In</title>
+        <link rel="stylesheet" type="text/css" href="CSS/reset.css" />
         <link rel="stylesheet" type="text/css" href="CSS/style.css" />
         <script src="SCRIPT/script.js"></script>
 
 
     </head>
     <body>
-        <div class="headLine">
-            <button class="headerButton" type="button" href="index.html">Home</button>
-            <button class="headerButton" type="button" onclick="showLoginWindow()">Login</button>
-        </div>
+        <header>
+           <img class = "imgHeader" src="img\little-logo.png">
+            <nav style = "display: inline;">               
+                <button class="headerButton" type="button" href="index.html">Home</button>
+                <button class="headerButton" type="button" onclick="showLoginWindow()">Login</button>
+            </nav>  
+        </header>
 
         <h1>Welcome to the Platform PROF_FILE</h1>
         <h3>
@@ -26,10 +30,8 @@
             job and salary plan, costs and taxes, individuly and in a macro plan, with total management of your debites
         </div>
         
-        <div class="imageOnTheRight">
-            <img src="img\3D-avatars-2.jpg">
-        </div>
-      
+        <img class="imgOnTheRight" src="img\3D-avatars-2.jpg">
+
         <div class="popUpWindow" style="visibility: hidden;">
             <iframe id="loginFrame" src="signIn.html" title="Login"></iframe>  
         </div>
