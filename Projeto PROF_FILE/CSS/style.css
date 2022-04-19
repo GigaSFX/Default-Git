@@ -2,14 +2,24 @@ body {
     background-color:azure;
     
 }
+
 header {
-    margin:7px;
-    display: inline;
+    width: 940px;
+    margin: 10px auto;
 }
+
 .imgHeader {
     height: 150px; 
     width: 150px; 
-    display: inline;
+    display: inline-block;
+    
+}
+
+nav {
+    margin-right: 20%;
+    position: absolute;
+    right: 10px;
+    top: 10px;
 }
 
 .headerButton {
@@ -17,10 +27,10 @@ header {
     color: AZURE;
     border-style: outset;
     border-color: #0066A2;
+    font: bold 15px arial, sans-serif;
+    display: inline;    
     height: 40px;
     width: 95px;
-    font: bold 15px arial, sans-serif;
-    display: inline;
 }
 
 .headerButton:hover {
@@ -41,7 +51,6 @@ header {
 }
 
 h1 {
-
     font-family: 'Inter';
     font-size: 42px;
     text-align: center;
@@ -51,10 +60,8 @@ h1 {
 }
 
 h2 {
-
     width: 350px;
     height: 92px;
-
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -87,7 +94,6 @@ h2 {
 }
 
 #loginFrame {
-
     width: 407px;
     height: 380px;
     border: 5px solid #000000;
