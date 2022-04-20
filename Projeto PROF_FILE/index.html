@@ -12,12 +12,15 @@
     <body>
         <header>
            <img class = "imgHeader" src="img\little-logo.png">
-        </header>
-        <nav>               
-            <button class="headerButton" type="button" href="index.html">Home</button>
+           <nav>               
+            <button class="headerButton" type="button" onclick="location.reload()">Home</button>
             <button class="headerButton" type="button" onclick="showLoginWindow()">Login</button>
-        </nav>  
-        <h1>Welcome to the Platform PROF_FILE</h1>
+            </nav>  
+            <h1>Welcome to the Platform <br>PROF_FILE</h1>
+        </header>
+        
+        
+        
         <h3>
             This project was design by <em>Lucas de Lima Sá</em> to study, practice and incorporate new ideas
             about Development Front-End on the enterprised field.
@@ -32,7 +35,16 @@
         <img class="imgOnTheRight" src="img\3D-avatars-2.jpg">
 
         <div class="popUpWindow" style="visibility: hidden;">
-            <iframe id="loginFrame" src="signIn.html" title="Login"></iframe>  
+            <div id="login">Login</div>
+            <input type="text" id="userLogin" name="userLogin">
+            <br>
+            <div id="password">Password</div>
+            <input type="password" id="userPassword" name="userPassword"> 
+            <div style="width: 200px; height: 50px;">
+                <a href="url">Forgot your Password?</a> <br>
+                or create a new account <a stylle="font-weight: bold;"" ="" href="url">here</a> 
+                <button type="button" onclick="checkPassword ()">Login</button>
+            </div>    
         </div>
 
     </body>

@@ -1,25 +1,31 @@
 body {
     background-color:azure;
     
-}
-
-header {
-    width: 940px;
-    margin: 10px auto;
-}
-
-.imgHeader {
-    height: 150px; 
-    width: 150px; 
-    display: inline-block;
     
 }
 
+header {
+    width: 100%;
+    padding: 15px;
+    position: fixed;
+    display: inline-flex;
+    background-color: lightblue;
+    z-index: 1;
+}
+
+.imgHeader {
+    height: 165px;
+    width: 165px;
+    display: inline-block;
+
+}
+
 nav {
-    margin-right: 20%;
-    position: absolute;
+    margin-right: 10%;
     right: 10px;
     top: 10px;
+    position: absolute;
+    
 }
 
 .headerButton {
@@ -52,23 +58,23 @@ nav {
 
 h1 {
     font-family: 'Inter';
-    font-size: 42px;
-    text-align: center;
-    
-
+    font-size: 48px;
+    position: relative;
+    display: inline-block;
+    margin-top: 50px;
 
 }
 
-h2 {
-    width: 350px;
-    height: 92px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 39px;
-    text-align: center;
-    color: #000000;
+h3 {
+    vertical-align: top;
+    position: relative;
+    top: 220px;
+    margin: 10px auto;
+    font-size: 20px;
+}
+
+em {
+    font-size: 22px;
 }
 
 .textOnTheLetf {
@@ -76,47 +82,47 @@ h2 {
     text-align: left;
     display:inline-block;
     width: 63%;
+    position: relative;
+    top: 220px;
+    font-size: 16px;
 }   
 .imgOnTheRight {
-    display: inline;
+    position: relative;
+    margin:5px;
+    right: 0%;
+    position: relative;
+    top: 220px;
+
+	
 }
 .popUpWindow {
-    width: 500px;
-    height: 500px;
-    display: -webkit-flex;
+    display: inline-block;
+    position: fixed; 
     align-items:center;
-    left:30%;
-    top:30%;       
-    justify-content: center;
-    position: absolute;
+    right: 86px;
+    top: 62px;    
+    z-index:2;
+    background-color: lightblue;
 
     
 }
 
-#loginFrame {
-    width: 407px;
-    height: 380px;
-    border: 5px solid #000000;
-    box-sizing: border-box;
-    background-color: #FFFFFF;
-
-}
 
 #login {
     text-align: left;
     font-weight: bold;
-    font-size: 26px;
+    font-size: 18px;
 
 }
 #password {
     text-align: left;
     font-weight: bold;
-    font-size: 26px;
+    font-size: 18px;
 }
 
 #userLogin {
-    width: 383px;
-    height: 30px;
+    width: 150px;
+    height: 25px;
     background: azure;
     mix-blend-mode: normal;
     border: 3px solid #000000;
@@ -125,8 +131,8 @@ h2 {
 }
 
 #userPassword {
-    width: 383px;
-    height: 30px;
+    width: 150px;
+    height: 25px;
     background: azure;
     mix-blend-mode: normal;
     border: 3px solid #000000;
