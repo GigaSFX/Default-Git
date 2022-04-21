@@ -20,7 +20,7 @@ header {
 
 }
 
-nav {
+header nav {
     margin-right: 10%;
     right: 10px;
     top: 10px;
@@ -65,10 +65,11 @@ h1 {
 
 }
 
+
 h3 {
     vertical-align: top;
     position: relative;
-    top: 220px;
+    top: 225px;
     margin: 10px auto;
     font-size: 20px;
 }
@@ -83,7 +84,7 @@ em {
     display:inline-block;
     width: 63%;
     position: relative;
-    top: 220px;
+    top: 225px;
     font-size: 16px;
 }   
 .imgOnTheRight {
@@ -107,6 +108,18 @@ em {
     
 }
 
+.textLinkLogin {
+    width: 200px;
+    height: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
 
 #login {
     text-align: left;
@@ -126,8 +139,11 @@ em {
     background: azure;
     mix-blend-mode: normal;
     border: 3px solid #000000;
+    border-radius: 3px 10px;
     box-sizing: border-box;
-    text-align: center;
+    text-align: left;
+    
+    
 }
 
 #userPassword {
@@ -136,6 +152,12 @@ em {
     background: azure;
     mix-blend-mode: normal;
     border: 3px solid #000000;
+    border-radius: 3px 10px;
     box-sizing: border-box;
-    text-align: center;
+    text-align: left;
+}
+
+footer {
+    background: #efd26e;
+
 }
