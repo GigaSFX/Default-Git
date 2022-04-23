@@ -89,11 +89,10 @@ em {
 }   
 .imgOnTheRight {
     position: relative;
+    display: inline-block;
     margin:5px;
     right: 0%;
-    position: relative;
     top: 220px;
-
 	
 }
 .popUpWindow {
