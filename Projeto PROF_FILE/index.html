@@ -12,13 +12,29 @@
     <body>
         <header>
            <img class = "imgHeader" src="img\little-logo.png">
-            <nav>
+            
+           <nav>
                 <ul>               
                     <button class="headerButton" type="button" onclick="location.reload()">Home</button>
                     <button class="headerButton" type="button" onclick="showLoginWindow()">Login</button>
                 </ul>
             </nav>  
+            
             <h1>Welcome to the Platform <br>PROF_FILE</h1>
+            
+            <div class="popUpWindow" style="visibility: hidden;">
+                <label for= "userLogin" id="login">Login</label><br>
+                <input type="text" id="userLogin" name="userLogin">
+                <br>
+                <label for= "userPassword" id="password">Password</label><br>
+                <input type="password" id="userPassword" name="userPassword"> 
+                <div class="textLinkLogin">
+                    <a href="url">Forgot your Password?</a> <br>
+                    or create a new account <a href="url">here</a> 
+                    <button type="button" onclick="checkPassword ()">Login</button>
+                </div>
+            <div>
+
         </header>
         <main>
             <h3>
@@ -33,24 +49,11 @@
                 <br>Organize agenda of each setor, public or private, and start your confere. Or just publishe notice wall
                 <br>To manage and interative with your partiners in a Home Office situation, I will provade an online chat 
                 divided by rooms, that you will created base in your current office, migrating and simulating your real life expirience!
-                
-                
-            
             </div>
             <div class="imgOnTheRight"> 
                 <img  src="img\3D-avatars-2.jpg">
             </div>
-            <div class="popUpWindow" style="visibility: hidden;">
-                <div id="login">Login</div>
-                <input type="text" id="userLogin" name="userLogin">
-                <br>
-                <div id="password">Password</div>
-                <input type="password" id="userPassword" name="userPassword"> 
-                <div class="textLinkLogin">
-                    <a href="url">Forgot your Password?</a> <br>
-                    or create a new account <a href="url">here</a> 
-                    <button type="button" onclick="checkPassword ()">Login</button>
-                </div>    
+            
             
         </main>
         <footer>
