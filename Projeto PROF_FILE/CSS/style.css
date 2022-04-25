@@ -1,7 +1,6 @@
 body {
     background-color:azure;
     
-    
 }
 
 header {
@@ -28,6 +27,7 @@ header nav {
     
 }
 
+
 .headerButton {
     background: #3a6aee;
     color: AZURE;
@@ -48,12 +48,50 @@ header nav {
     width: 95px;
     font: bold 15px arial, sans-serif;
 }
+.popUpWindow {
+    display: inline-block;
+    position: fixed; 
+    align-items:center;
+    right: 111px;
+    top: 62px;    
+    z-index:2;
+    background-color: lightblue;
 
-.headLine {
-    top: 10px;
-    display: flex;
-    justify-content: flex-start;
-    align-content: flex-start;
+    
+}
+
+.textLinkLogin {
+    width: 200px;
+    height: 50px;
+}
+
+#login, #password {
+    text-align: left;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+
+#userLogin, #userPassword {
+    width: 220px;
+    height: 25px;
+    background: azure;
+    mix-blend-mode: normal;
+    border: 3px solid #000000;
+    border-radius: 3px 10px;
+    box-sizing: border-box;
+    text-align: left;
+    padding-left: 7px;
+    
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 h1 {
@@ -96,66 +134,7 @@ em {
     top: 220px;
 	
 }
-.popUpWindow {
-    display: inline-block;
-    position: fixed; 
-    align-items:center;
-    right: 86px;
-    top: 62px;    
-    z-index:2;
-    background-color: lightblue;
 
-    
-}
-
-.textLinkLogin {
-    width: 200px;
-    height: 50px;
-}
-
-a {
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-#login {
-    text-align: left;
-    font-weight: bold;
-    font-size: 18px;
-
-}
-#password {
-    text-align: left;
-    font-weight: bold;
-    font-size: 18px;
-}
-
-#userLogin {
-    width: 150px;
-    height: 25px;
-    background: azure;
-    mix-blend-mode: normal;
-    border: 3px solid #000000;
-    border-radius: 3px 10px;
-    box-sizing: border-box;
-    text-align: left;
-    
-    
-}
-
-#userPassword {
-    width: 150px;
-    height: 25px;
-    background: azure;
-    mix-blend-mode: normal;
-    border: 3px solid #000000;
-    border-radius: 3px 10px;
-    box-sizing: border-box;
-    text-align: left;
-}
 
 footer {
     background: #4d4d4d7f;
