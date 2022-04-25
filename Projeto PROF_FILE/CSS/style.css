@@ -5,7 +5,7 @@ body {
 
 header {
     width: 100%;
-    padding: 15px;
+    padding: 10px;
     position: fixed;
     display: inline-flex;
     background-color: lightblue;
@@ -20,10 +20,9 @@ header {
 }
 
 header nav {
-    margin-right: 10%;
-    right: 10px;
     top: 10px;
-    position: absolute;
+    margin: 0px 10px;
+    position: relative;
     
 }
 
@@ -31,33 +30,36 @@ header nav {
 .headerButton {
     background: #3a6aee;
     color: AZURE;
-    border-style: outset;
+    border-style: double;
     border-color: #0066A2;
-    font: bold 15px arial, sans-serif;
-    display: inline;    
+    font-size: 18px;
+    font-family: 'Inter';
+    font-weight: bold;
+    display: inline;
     height: 40px;
     width: 95px;
 }
 
 .headerButton:hover {
-    background: #0066ffaf;
+    background: #3a6aee;
     color: AZURE;
-    border-style: outset;
+    border-style: none;
     border-color: #0066A2;
+    font-size: 19px;
+    font-family: 'Inter';
+    font-weight: bold;
+    display: inline;
     height: 40px;
     width: 95px;
-    font: bold 15px arial, sans-serif;
 }
 .popUpWindow {
-    display: inline-block;
-    position: fixed; 
-    align-items:center;
-    right: 111px;
-    top: 62px;    
-    z-index:2;
+    display: inline;
+    position: relative;
+    align-items: center;
+    top: 10px;
+    z-index: 2;
     background-color: lightblue;
-
-    
+    margin: 0px 30px;
 }
 
 .textLinkLogin {
@@ -140,19 +142,13 @@ footer {
     background: #4d4d4d7f;
     position: fixed;
     display: inline-block;
-    top: 85%;
+    top: 88%;
     width: 100%;
-    height: 13%;
-    
-    padding: 2%;
-
+    height: 9%;
+    padding: 1%;
 }
 
-footer nav {
-    margin: 0 30%;
-}
 footer ul {
     text-align: center;
-    align-self: left;
     font-size: 22px;
 }    

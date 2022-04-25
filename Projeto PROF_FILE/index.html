@@ -15,14 +15,7 @@
            
            <h1>Welcome to the Platform <br>PROF_FILE</h1>
 
-           <nav>
-                <ul>               
-                    <button class="headerButton" type="button" onclick="showLoginWindow()">Login</button>
-                    <button class="headerButton" type="button" onclick="location.reload()">Home</button>
-                </ul>
-            </nav>  
-            
-            <div class="popUpWindow" style="visibility: hidden;">
+           <div class="popUpWindow" style="visibility: hidden;">
                 <form>
                     <label for= "userLogin" id="login">Login</label><br>
                     <input type="text" id="userLogin" name="userLogin" placeholder="UserName or email@domain.com" required><br>
@@ -33,6 +26,13 @@
                     <input type="submit" value="Login" onclick="checkPassword ()"></input>  
                 </form>  
             </div>
+
+           <nav>
+                <ul>               
+                    <button class="headerButton" type="button" onclick="showLoginWindow()">Login</button>
+                    <button class="headerButton" type="button" onclick="location.reload()">Home</button>
+                </ul>
+            </nav>
 
         </header>
         <main>
