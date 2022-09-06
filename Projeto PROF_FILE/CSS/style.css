@@ -1,6 +1,6 @@
 body {
     background-color:azure;
-    
+    height: 650px;
 }
 
 header {
@@ -10,20 +10,19 @@ header {
     display: inline-flex;
     background-color: lightblue;
     z-index: 1;
+    opacity: 97%;
 }
 
 .imgHeader {
     height: 165px;
     width: 165px;
     display: inline-block;
-
 }
 
 header nav {
     top: 10px;
     margin: 0px 10px;
     position: relative;
-    
 }
 
 
@@ -39,7 +38,6 @@ header nav {
     height: 40px;
     width: 95px;
     border-radius: 5px;
-    
 }
 
 .headerButton:hover {
@@ -56,7 +54,6 @@ header nav {
     z-index: 2;
     background-color: lightblue;
     margin: 0px 30px;
-
 }
 
 .textLinkLogin {
@@ -81,8 +78,6 @@ header nav {
     box-sizing: border-box;
     text-align: left;
     padding-left: 7px;
-    
-    
 }
 
 a {
@@ -93,20 +88,21 @@ a:hover {
     text-decoration: underline;
 }
 
-h1 {
-    font-family: 'Inter';
-    font-size: 48px;
+main {
     position: relative;
-    display: inline-block;
-    margin-top: 50px;
-
+    top: 200px;
 }
 
+h1 {
+    font-family: 'Inter';
+    font-size: 55px;
+    position: relative;
+    display: inline-block;
+}
 
 h3 {
     vertical-align: top;
     position: relative;
-    top: 225px;
     margin: 10px auto;
     font-size: 21px;
 }
@@ -121,31 +117,29 @@ em {
     display:inline-block;
     width: 63%;
     position: relative;
-    top: 225px;
     font-size: 18px;
     line-height: 112%;
 }   
-.imgOnTheRight {
-    position: relative;
-    display: inline-block;
-    margin:5px;
-    right: 0%;
-    top: 220px;
-	
-}
 
+.imgOnTheRight {
+    float: right;
+    margin:5px;
+}
 
 footer {
     background: #4d4d4d7f;
-    position: fixed;
+    position: relative;
     display: inline-block;
-    top: 88%;
+    top: 83%;
     width: 100%;
-    height: 9%;
-    padding: 1%;
+    height: auto;
+    padding: 2%;
 }
 
-footer ul {
+footer nav {
+    display: inline-block;
+    position: relative;
+    margin: 5px 5em;
     text-align: center;
     font-size: 22px;
 }    
