@@ -1,0 +1,17 @@
+.footer__section {
+    margin: 0px 20px;
+    background-color: rgb(116 71 71);
+    border-radius: 0 0 20px 20px;
+    
+}
+
+.footer__div {
+    padding: 0em 1em 1em 0.3em;
+}
+
+h2 {
+    text-align: left;
+    font-size: 35px;
+    font-family: 'Roboto', italic, sans-serif;
+    color: rgb(201, 198, 198);
+}
