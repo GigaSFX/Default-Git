@@ -1,7 +1,13 @@
+:root {
+	--MainBackground: rgb(201 198 198);
+    --DivBoxBackground: rgb(116 71 71);
+    --DivInfoBackground: rgb(156, 99, 99);
+}
+
 .main__section {
     height: 50rem;
     margin: 0 20px;
-    background-color: rgb(201 198 198);
+    background-color: var(--MainBackground);
     
 }
 
@@ -16,20 +22,49 @@
 
 .main__div__box  {
     position: absolute;
-    width: 257px;
-    height: 54.2rem;
+    width: 16rem;
+    height: 19rem;
     top: 25px;
-    background-color: rgb(116 71 71);
+    background-color: var(--DivBoxBackground) ;
     border-radius: 20px 0 0 0;
 }
 
-.main__div__combobox {
+.main__div__info {
+    padding: 0.5rem;
     position: absolute;
-    width: 257px;
-    height: 37rem;
+    width: calc(100% - 1.4em);
     top: 300px;
-    background-color: rgb(156, 99, 99);
-    
+    background-color: var(--DivInfoBackground) ;
+    border-style: solid;
+    border-width: 0.2em;
+    border-color: var(--DivBoxBackground);
+    border-radius: 0 0 15% 0;    
+}
+
+.main__div__info ul {
+	color:  var(--MainBackground);
+
+}
+
+.main__div__info li {
+	font-size: 1rem;
+    display: inline-flex;
+    align-items: center;
+    padding: 0.8rem 0;
+
+}
+
+.main__div__info h3 {
+	font-size: 1.6rem;
+	margin: 1.6rem 0;
+}
+
+h4 {
+    padding-left: 0.6rem;
+}
+
+a:houver {
+	cursor:pointer;
 }
 
 .main__div__textIntro {
@@ -47,4 +82,3 @@
     height: 500px;
     width: 30rem;
 }
-
