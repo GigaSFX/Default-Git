@@ -2,15 +2,18 @@
     margin: 25px 20px 0 20px;
     background-color: rgb(201 198 198);
     border-radius: 21px 20px 0 0;
-    
+    border-width: 0.2rem 0.2rem 0 0.2rem;
+    border-style: solid;
+    border-color: var(--divBoxBackground);
 }
+
 .header__div {
     padding: 1em 1em 0em 0.3em;
  }
 
 h1 {
     text-align: right;
-    font-size: 51px;
+    font-size: 3.3em;
     font-family: 'Roboto', italic, sans-serif;
-    color: rgba(22, 22, 22, 0.85);
+    color: var(--textColorTitle);
 }

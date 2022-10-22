@@ -1,4 +1,9 @@
-
+:root {
+	--mainBackground: rgb(201 198 198);
+    --divBoxBackground: rgb(116 71 71);
+	--divInfoBackground: rgb(156, 99, 99);
+	--textColorTitle: rgba(22 22 22 87%);
+}
 
 body {
 	background-color: rgb(33 37 41 / 90%);

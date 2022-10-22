@@ -1,14 +1,10 @@
-:root {
-	--MainBackground: rgb(201 198 198);
-    --DivBoxBackground: rgb(116 71 71);
-    --DivInfoBackground: rgb(156, 99, 99);
-}
-
 .main__section {
     height: 50rem;
     margin: 0 20px;
-    background-color: var(--MainBackground);
-    
+    background-color: var(--mainBackground);
+    border-width: 0 0.2rem;
+    border-style: solid;
+    border-color: var(--divBoxBackground);
 }
 
 .main__img__profile {
@@ -25,25 +21,24 @@
     width: 16rem;
     height: 19rem;
     top: 25px;
-    background-color: var(--DivBoxBackground) ;
+    background-color: var(--divBoxBackground);
     border-radius: 20px 0 0 0;
 }
 
 .main__div__info {
     padding: 0.5rem;
     position: absolute;
-    width: calc(100% - 1.4em);
+    width: calc(100% - 1.2em);
     top: 300px;
-    background-color: var(--DivInfoBackground) ;
+    background-color: var(--divInfoBackground);
     border-style: solid;
-    border-width: 0.2em;
-    border-color: var(--DivBoxBackground);
-    border-radius: 0 0 15% 0;    
+    border-width: 0.2em 0.2rem 0.2rem 0;
+    border-color: var(--divBoxBackground);
+    border-radius: 0 0 20% 0;    
 }
 
 .main__div__info ul {
-	color:  var(--MainBackground);
-
+	color:  var(--mainBackground);
 }
 
 .main__div__info li {
@@ -51,7 +46,6 @@
     display: inline-flex;
     align-items: center;
     padding: 0.8rem 0;
-
 }
 
 .main__div__info h3 {
@@ -59,12 +53,16 @@
 	margin: 1.6rem 0;
 }
 
-h4 {
+li h4 {
     padding-left: 0.6rem;
 }
 
 a:houver {
 	cursor:pointer;
+}
+
+li a {
+    color: var(--mainBackground);
 }
 
 .main__div__textIntro {
@@ -81,4 +79,14 @@ a:houver {
     padding: 15px 0px;
     height: 500px;
     width: 30rem;
+}
+
+.main__section h2 {
+    font-size: 2em;
+    font-weight: bold;
+    color: var(--textColorTitle);
+}
+
+.main__div__textDescription li {
+    list-style-type:disc;
 }
