@@ -18,6 +18,10 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	background: transparent;
 	text-decoration: none;
 }
+p {
+	margin-block: 0.5em 0.5em;
+}
+
 em {
 	font-weight: bold;
 	font-size: 1.1em;
@@ -25,6 +29,7 @@ em {
 
 li, ol, ul {
 	list-style: none;
+	line-height: 0.8;
 }
 
 blockquote, q {

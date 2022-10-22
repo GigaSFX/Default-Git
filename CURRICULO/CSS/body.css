@@ -1,14 +1,14 @@
 :root {
-	--mainBackground: rgb(201 198 198);
+	--mainBackground: rgb(210 210 210);
     --divBoxBackground: rgb(116 71 71);
 	--divInfoBackground: rgb(156, 99, 99);
 	--textColorTitle: rgba(22 22 22 87%);
 }
 
 body {
-	background-color: rgb(33 37 41 / 90%);
-	line-height: 1;
-	width: 50rem;
+	background-color: whitesmoke;
+	line-height: 1.2;
+	width: 52rem;
 	font-family: 'Roboto', sans-serif;
 
 }
