@@ -18,7 +18,8 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	background: transparent;
 	text-decoration: none;
 }
-a:houver, button:houver {
+
+a:houver {
 	cursor: pointer;
 }
 

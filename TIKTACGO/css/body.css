@@ -1,8 +1,9 @@
 :root {
 	--backgroundColor: rgba(18 18 18 / 90%);
 	--playBackgroundColor: rgba(220 220 220 / 85%);
-	--playBars: rgba(20 30 200 / 70%);
-	--buttonDieColor: rgba(88 88 88)
+	--playBars: rgba(20 30 200);
+	--buttonDieColor: rgba(88 88 88 / 50%);
+
 
 }
 
@@ -12,3 +13,8 @@ body {
 	font-family: 'Roboto', sans-serif;
 	background-color: var(--backgroundColor);
 }
+
+button {
+	cursor:pointer;
+}
+
