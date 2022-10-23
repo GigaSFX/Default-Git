@@ -43,3 +43,83 @@
     top: 37rem;
     left: 17rem;
 }
+
+#play__area__buttonDie1 {
+    background-color: var(--buttonDieColor);
+    height: 13rem;
+    width: 13rem;
+    top: 5.5rem;
+    left: 18.5rem;
+    position: absolute;
+} 
+
+#play__area__buttonDie2 {
+    background-color: var(--buttonDieColor);
+    height: 13rem;
+    width: 13rem;
+    top: 5.5rem;
+    left: 35.5rem;
+    position: absolute;
+}
+
+#play__area__buttonDie3 {
+    background-color: var(--buttonDieColor);
+    height: 13rem;
+    width: 13rem;
+    top: 5.5rem;
+    left: 52.5rem;
+    position: absolute;
+} 
+#play__area__buttonDie4 {
+    background-color: var(--buttonDieColor);
+    height: 13rem;
+    width: 13rem;
+    top: 22.5rem;
+    left: 18.5rem;
+    position: absolute;
+}
+
+#play__area__buttonDie5 {
+    background-color: var(--buttonDieColor);
+    height: 13rem;
+    width: 13rem;
+    top: 22.5rem;
+    left: 35.5rem;
+    position: absolute;
+}
+
+#play__area__buttonDie6 {
+    background-color: var(--buttonDieColor);
+    height: 13rem;
+    width: 13rem;
+    top: 22.5rem;
+    left: 52.5rem;
+    position: absolute;
+}
+
+#play__area__buttonDie7 {
+    background-color: var(--buttonDieColor);
+    height: 13rem;
+    width: 13rem;
+    top: 39.5rem;
+    left: 18.5rem;
+    position: absolute;
+}
+
+#play__area__buttonDie8 {
+    background-color: var(--buttonDieColor);
+    height: 13rem;
+    width: 13rem;
+    top: 39.5rem;
+    left: 35.5rem;
+    position: absolute;
+}
+
+#play__area__buttonDie9 {
+    background-color: var(--buttonDieColor);
+    height: 13rem;
+    width: 13rem;
+    top: 39.5rem;
+    left: 52.5rem;
+    position: absolute;
+}
