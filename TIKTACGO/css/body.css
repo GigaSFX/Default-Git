@@ -1,9 +1,13 @@
 :root {
-	--backgroundColor: rgba(18 18 18 90%);
-	--playBackgroundColor: rgba(220 220 220 85%);
+	--backgroundColor: rgba(18 18 18 / 90%);
+	--playBackgroundColor: rgba(220 220 220 / 85%);
+	--playBars: rgba(20 30 200 / 70%);
+
 }
 
 body {
+	display: grid;
+	justify-content: center;
 	font-family: 'Roboto', sans-serif;
 	background-color: var(--backgroundColor);
 }

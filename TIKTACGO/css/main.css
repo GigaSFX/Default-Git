@@ -1,5 +1,45 @@
 .play__area {
-    height: 60rem;
-    width: 60rem;
     background-color: var(--playBackgroundColor);
+    height: 56rem;
+    width: 56rem;
+}
+
+#play__area__verticalBar {
+    background-color: var(--playBars);
+    border-radius: 25px;
+    position: absolute;
+    height: 50rem;
+    width:1rem;
+    top: 5rem;
+    left: 33rem;
+}
+
+#play__area__verticalBar2 {
+    background-color: var(--playBars);
+    border-radius: 25px;
+    position: absolute;
+    height: 50rem;
+    width:1rem;
+    top: 5rem;
+    left: 50rem;
+}    
+
+#play__area__horizontalBar {
+    background-color: var(--playBars);
+    border-radius: 25px;
+    position: absolute;
+    height: 1rem;
+    width:50rem;
+    top: 20rem;
+    left: 17rem;
+}
+
+#play__area__horizontalBar2 {
+    background-color: var(--playBars);
+    border-radius: 25px;
+    position: absolute;
+    height: 1rem;
+    width:50rem;
+    top: 37rem;
+    left: 17rem;
 }
