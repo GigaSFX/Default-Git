@@ -1,8 +1,9 @@
 :root {
-
+	--backgroundColor: rgba(18 18 18 90%);
+	--playBackgroundColor: rgba(220 220 220 85%);
 }
 
 body {
 	font-family: 'Roboto', sans-serif;
-	
+	background-color: var(--backgroundColor);
 }

@@ -1,0 +1,5 @@
+.play__area {
+    height: 60rem;
+    width: 60rem;
+    background-color: var(--playBackgroundColor);
+}
