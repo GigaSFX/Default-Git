@@ -12,8 +12,8 @@
     padding: 0px 0.85em;
     position: absolute;
     border-radius: 95px;
-    height: 240px;
-    width: 230px;
+    height: 250px;
+    width: 225px;
 }
 
 .main__div__box  {
@@ -73,9 +73,9 @@ li a {
 .main__div__textIntro, .main__div__textDescription {
     position: relative;
     left: 270px;
-    padding: 0.5em 0;
+    padding: 0.2rem 0 0 0;
     height: 13rem;
-    width: 31rem;
+    width: 32rem;
 }
 
 .main__section p {
@@ -86,6 +86,7 @@ li a {
     font-size: 1.4em;
     font-weight: bold;
     color: var(--textColorTitle);
+    margin-bottom: 1rem;
 }
 
 .main__div__textDescription li {
