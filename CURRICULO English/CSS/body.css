@@ -1,0 +1,13 @@
+:root {
+	--mainBackground: rgb(235 230 225);
+    --divBoxBackground: rgb(116 71 71);
+	--divInfoBackground: rgb(156, 99, 99);
+	--textColorTitle: rgba(22 22 22 87%);
+}
+
+body {
+	line-height: 1.2;
+	width: 52rem;
+	font-family: 'Roboto', sans-serif;
+
+}

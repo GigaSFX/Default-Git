@@ -1,0 +1,95 @@
+.main__section {
+    height: 52rem;
+    margin: 0 1.27rem;
+    background-color: var(--mainBackground);
+    border-width: 0 0.2rem;
+    border-style: solid;
+    border-color: var(--divBoxBackground);
+}
+
+.main__img__profile {
+    top: 5%;
+    padding: 0px 0.85em;
+    position: absolute;
+    border-radius: 95px;
+    height: 250px;
+    width: 225px;
+}
+
+.main__div__box  {
+    position: absolute;
+    width: 16rem;
+    height: 19rem;
+    top: 1.6rem;
+    left: 1.4rem;
+    background-color: var(--divBoxBackground);
+    border-radius: 1rem 0 0 0;
+}
+
+.main__div__info {
+    padding: 0.5rem;
+    position: absolute;
+    width: calc(100% - 1.2em);
+    top: 300px;
+    background-color: var(--divInfoBackground);
+    border-style: solid;
+    border-width: 0.2em 0.2rem 0.2rem 0;
+    border-color: var(--divBoxBackground);
+    border-radius: 0 0 20% 0;    
+}
+
+.main__div__info ul {
+	color:  var(--mainBackground);
+}
+
+.main__div__info li {
+	font-size: 1rem;
+    display: inline-flex;
+    align-items: center;
+    padding: 0.8rem 0;
+}
+
+.main__div__info h3 {
+	font-size: 1.6rem;
+	margin: 1.6rem 0;
+}
+
+ul {
+    margin-block: 1em 1em;
+}
+
+li h4 {
+    padding-left: 0.6rem;
+}
+
+a:houver {
+	cursor:pointer;
+}
+
+li a {
+    color: var(--mainBackground);
+}
+
+.main__div__textIntro, .main__div__textDescription {
+    position: relative;
+    left: 270px;
+    padding: 0.2rem 0 0 0;
+    height: 13rem;
+    width: 32rem;
+}
+
+.main__section p {
+    font-size: 1.1em;
+}
+
+.main__section h2 {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: var(--textColorTitle);
+    margin-bottom: 1rem;
+}
+
+.main__div__textDescription li {
+    list-style-type:disc;
+    list-style-position: inside;
+}

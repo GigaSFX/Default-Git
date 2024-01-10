@@ -1,0 +1,19 @@
+.header__section {
+    margin: 1.5rem 1.235rem 0 1.235rem;
+    background-color: var(--mainBackground);
+    border-radius: 21px 20px 0 0;
+    border-width: 0.2rem 0.2rem 0 0.2rem;
+    border-style: solid;
+    border-color: var(--divBoxBackground);
+}
+
+.header__div {
+    padding: 1em 1em 0em 0.3em;
+ }
+
+h1 {
+    text-align: right;
+    font-size: 3.3em;
+    font-family: 'Roboto', italic, sans-serif;
+    color: var(--textColorTitle);
+}
