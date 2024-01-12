@@ -5,6 +5,7 @@
     border-width: 0 0.2rem;
     border-style: solid;
     border-color: var(--divBoxBackground);
+    font-size: 1.1rem;
 }
 
 .main__img__profile {
@@ -76,10 +77,6 @@ li a {
     padding: 0.2rem 0 0 0;
     height: 12rem;
     width: 32rem;
-}
-
-.main__section p {
-    font-size: 1.1em;
 }
 
 .main__section h2 {
